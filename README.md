@@ -11,15 +11,7 @@
 6. 读取注解
 7. 加载class
 
-## 第二章 byte-buddy
-
-1. 
-2. 
-3.
-4. 
-5. 
-
-## 第三章 ASM
+## 第二章 ASM
 
 1. 使用ASM编写一个hellowold - 基于ASM创建类和方法
 2. 
