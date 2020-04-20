@@ -14,4 +14,8 @@ public class ApiTest {
         return π * r * r;
     }
 
+    public Double sumOfTwoNumbers(double a, double b) {
+        return a + b;
+    }
+
 }
