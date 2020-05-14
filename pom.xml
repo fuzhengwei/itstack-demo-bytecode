@@ -16,6 +16,7 @@
         <module>itstack-demo-bytecode-1-05</module>
         <module>itstack-demo-bytecode-2-01</module>
         <module>itstack-demo-bytecode-2-02</module>
+        <module>itstack-demo-bytecode-2-03</module>
     </modules>
 
     <dependencies>
