@@ -17,6 +17,18 @@
         <module>itstack-demo-bytecode-2-01</module>
         <module>itstack-demo-bytecode-2-02</module>
         <module>itstack-demo-bytecode-2-03</module>
+        <module>itstack-demo-bytecode-3-01</module>
+        <module>itstack-demo-bytecode-3-02</module>
+        <module>itstack-demo-bytecode-3-03</module>
+        <module>itstack-demo-bytecode-3-04</module>
+        <module>itstack-demo-bytecode-3-05</module>
+        <module>itstack-demo-bytecode-3-06</module>
+        <module>itstack-demo-bytecode-4-01</module>
+        <module>itstack-demo-bytecode-4-02</module>
+        <module>itstack-demo-bytecode-4-03</module>
+        <module>itstack-demo-bytecode-4-04</module>
+        <module>itstack-demo-bytecode-4-05</module>
+        <module>itstack-demo-bytecode-4-06</module>
     </modules>
 
     <dependencies>
@@ -47,6 +59,22 @@
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy-agent</artifactId>
             <version>1.10.9</version>
+        </dependency>
+        <!--ASM-->
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>6.2.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.ow2.asm</groupId>
+                    <artifactId>asm-analysis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.ow2.asm</groupId>
+                    <artifactId>asm-tree</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
