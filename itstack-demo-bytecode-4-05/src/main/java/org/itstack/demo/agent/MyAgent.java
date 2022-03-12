@@ -36,7 +36,7 @@ public class MyAgent {
             return builder;
         };
 
-        agentBuilder = agentBuilder.type(ElementMatchers.nameStartsWith("org.itstack.demo.test")).transform(transformer).asDecorator();
+        agentBuilder = agentBuilder.type(ElementMatchers.nameStartsWith("org.itstack.demo.test")).transform(transformer);
 
         //监听
         AgentBuilder.Listener listener = new AgentBuilder.Listener() {

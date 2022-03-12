@@ -36,7 +36,7 @@ public class MyAgent {
                     builder = builder.visit(Advice.to(plugin.adviceClass()).on(point.buildMethodsMatcher()));
                     return builder;
                 };
-                agentBuilder = agentBuilder.type(point.buildTypesMatcher()).transform(transformer).asDecorator();
+                agentBuilder = agentBuilder.type(point.buildTypesMatcher()).transform(transformer);
             }
         }
 
